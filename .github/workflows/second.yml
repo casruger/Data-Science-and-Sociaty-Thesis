@@ -1,0 +1,21 @@
+name: Integraton Test
+
+on: [pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 12
+      - name: Markdown SEO Check
+        uses: ./
+        with:
+          includes: 'test/pass/*.md'
+          max_title_length: 70
+          max_description_length: 150
+          max_slug_length: 100
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
