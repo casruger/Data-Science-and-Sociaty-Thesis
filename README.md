@@ -23,4 +23,4 @@ of goals of both the home and away team, and changing to a more defensive lineup
 by the home team increases the final number of goals of both the home and away 
 team. 
 
-# For the full thesis read the pdf file
+# For the full thesis read the pdf file [# or click here ](https://github.com/casruger/Data-Science-and-Sociaty-Thesis/blob/main/Data%20Science%20Thesis%20-%20Never%20change%20a%20winning%20team.pdf)
